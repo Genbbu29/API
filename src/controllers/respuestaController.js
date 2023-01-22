@@ -1,6 +1,6 @@
 //const { v4: uuid } = require("uuid");
 //import { v4 as uuidv4 } from 'uuid';
-import { obtenerSRespuesta} from '../services/respuestaService.js';
+import { crearSRespuesta} from '../services/respuestaService.js';
 import { v4 as uuidv4 } from 'uuid';
 //const docenteService = require("../services/docenteService");
 // import { pool } from "../config/db.js";
