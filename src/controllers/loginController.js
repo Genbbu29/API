@@ -19,8 +19,8 @@ export const obtenerCLogin = async (req, res) => {
         });
         return;
     }
-    const id1 = id_estudiante.slice(1, 37);
-    console.log(id1);
+    // const id1 = id_estudiante.slice(1, 37);
+    console.log(id_estudiante);
     try {
         // if (rows.length <= 0) {
         //     res.status(400).send({
@@ -29,7 +29,7 @@ export const obtenerCLogin = async (req, res) => {
         //       });
         //       return;
         // }
-        const estudiante = await obtenerSLogin(id1);
+        const estudiante = await obtenerSLogin(id_estudiante);
         res.status(200).json({ message: 'ok', data: estudiante });
         //res.json(rows[0]);
     } catch (error) {

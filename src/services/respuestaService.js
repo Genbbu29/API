@@ -1,4 +1,4 @@
-import { obtenerMRespuesta } from '../config/RespuestaBD.js';
+import { crearMRespuesta } from '../config/RespuestaBD.js';
 
 
 export const crearSRespuesta = (nuevoRespuesta) => {
