@@ -6,7 +6,7 @@ import  apicache  from "apicache";
 import { routerD } from "./routes/docenteRoutes.js";
 import { routerE } from "./routes/estudianteRoutes.js";
 import { routerL } from "./routes/loginRoutes.js";
-import { routerR } from "./routes/respuestaController.js";
+import { routerR } from "./routes/respuestaRoutes.js";
 
 //import { PORT } from "./config/config.js";
 
