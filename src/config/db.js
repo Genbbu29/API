@@ -27,9 +27,9 @@ import {createPool} from 'mysql2/promise'
 
 
 export const pool = createPool({
-  host:  "containers-us-west-99.railway.app",
+  host:  "containers-us-west-176.railway.app",
   user: "root",
-  password: "0Ss1bEEZxNLQOAY4nTnn",
-  port: 5509,
+  password: "OHpkAx1UsCDR2O3RXLXf",
+  port: 6533,
   database: "railway"
 });
