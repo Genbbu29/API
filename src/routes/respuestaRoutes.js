@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import{obtenerCRespuesta} from "../controllers/respuestaController.js";
+import{crearCRespuesta} from "../controllers/respuestaController.js";
 
 export const routerR = Router();
 

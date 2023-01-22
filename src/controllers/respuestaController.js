@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 // //const { pool } = require("../database/db");
 // import { Docente } from "../Entidades/Docente.js"
 
-export const crearCEstudiante = async (req, res) => {
+export const crearCRespuesta = async (req, res) => {
     const { body } = req;
 
     if (
