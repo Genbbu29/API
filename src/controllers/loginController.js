@@ -33,6 +33,6 @@ export const obtenerCLogin = async (req, res) => {
         res.status(200).json({ message: 'ok', data: estudiante });
         //res.json(rows[0]);
     } catch (error) {
-        res.status(error?.status || 500).send({ status: "FAILED", data: { error: error?.message || error } });
+        res.status(error?.status || 500).send({ message: "FAILED", data: { error: error?.message || error } });
     }
 };

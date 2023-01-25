@@ -35,9 +35,9 @@ export const crearCRespuesta = async (req, res) => {
     try {
         const crearRespuesta = await crearSRespuesta(nuevoRespuesta);
         console.log(crearCRespuesta);
-        res.status(201).json({ status: "OK", data: crearRespuesta });
+        res.status(201).json({ message: "OK", data: crearRespuesta });
     } catch (error) {
-        res.status(error?.status || 500) .send({ status: "FAILDED", data: { error: error?.message || error } });
+        res.status(error?.status || 500) .send({ message: "FAILDED", data: { error: error?.message || error } });
     }
 
 
