@@ -7,6 +7,7 @@ import { routerD } from "./routes/docenteRoutes.js";
 import { routerE } from "./routes/estudianteRoutes.js";
 import { routerL } from "./routes/loginRoutes.js";
 import { routerR } from "./routes/respuestaRoutes.js";
+import { routerI } from "./routes/imagenRoutes.js";
 
 //import { PORT } from "./config/config.js";
 
@@ -27,6 +28,7 @@ app.use(cache("2 minutes"));
  app.use("/api/v1", routerE);
  app.use("/api/v1", routerL);
  app.use("/api/v1", routerR);
+ app.use("/api/v1", routerI);
 
 //Public
 
